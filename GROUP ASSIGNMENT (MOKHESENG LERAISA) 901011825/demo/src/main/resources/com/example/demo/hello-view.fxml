@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="641.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <children>
+        <AnchorPane layoutX="5.0" layoutY="6.0" prefHeight="629.0" prefWidth="209.0" style="-fx-background-color: WHITE;">
+            <children>
+            <AnchorPane layoutY="201.0" prefHeight="426.0" prefWidth="214.0" style="-fx-background-color: RED;" />
+                <ImageView fitHeight="162.0" fitWidth="209.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../3cfd6c4f2902421f8c0387bf79f75b1f.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="62.0" fitWidth="52.0" layoutX="14.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../ic_home.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="61.0" fitWidth="52.0" layoutX="14.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../user.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="124.0" layoutY="323.0" prefHeight="17.0" prefWidth="67.0" text="HOME">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </Label>
+                <Label layoutX="91.0" layoutY="577.0" prefHeight="28.0" prefWidth="100.0" text="USERNAME">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="225.0" layoutY="6.0" prefHeight="200.0" prefWidth="527.0" style="-fx-background-color: WHITE;">
+         <children>
+            <ImageView fitHeight="164.0" fitWidth="410.0" layoutX="118.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../netflix-4.jpg" />
+               </image>
+            </ImageView>
+         </children>
+        </AnchorPane>
+        <Label layoutX="339.0" layoutY="236.0" text="MOVIE CATEGORIES">
+            <font>
+                <Font name="System Bold" size="33.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="150.0" fitWidth="163.0" layoutX="225.0" layoutY="310.0" onMouseClicked="#ho" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../BHoot.JPG" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="132.0" fitWidth="120.0" layoutX="449.0" layoutY="310.0" onMouseClicked="#dr" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../stargirl.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="132.0" fitWidth="94.0" layoutX="622.0" layoutY="310.0" onMouseClicked="#co" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Coming 2 America.jpg" />
+            </image>
+        </ImageView>
+      <Label layoutX="268.0" layoutY="475.0" onMouseClicked="#ho1" prefHeight="17.0" prefWidth="100.0" text="HORROR">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="455.0" layoutY="475.0" onMouseClicked="#dr1" prefHeight="17.0" prefWidth="100.0" text="DRAMA">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="616.0" layoutY="475.0" onMouseClicked="#co1" prefHeight="17.0" prefWidth="100.0" text="COMEDY">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="640.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.COMEDYController">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="6.0" prefHeight="629.0" prefWidth="209.0" style="-fx-background-color: WHITE;">
+         <children>
+            <AnchorPane layoutY="199.0" prefHeight="430.0" prefWidth="214.0" style="-fx-background-color: RED;" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../3cfd6c4f2902421f8c0387bf79f75b1f.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="62.0" fitWidth="52.0" layoutX="14.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../ic_home.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="52.0" layoutX="14.0" layoutY="563.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../user.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="108.0" layoutY="344.0" prefHeight="17.0" prefWidth="67.0" text="HOME">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="577.0" prefHeight="28.0" prefWidth="100.0" text="USERNAME">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="225.0" layoutY="6.0" prefHeight="200.0" prefWidth="527.0" style="-fx-background-color: WHITE;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="164.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../netflix-4.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="225.0" layoutY="310.0" prefHeight="325.0" prefWidth="527.0" style="-fx-background-color: #01ff0a;">
+         <children>
+            <ScrollPane layoutY="-3.0" prefHeight="329.0" prefWidth="527.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="392.0" prefWidth="723.0">
+                     <children>
+                        <ImageView fitHeight="135.0" fitWidth="157.0" layoutX="35.0" layoutY="14.0" onMouseClicked="#C1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Coming 2 America.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="112.0" fitWidth="100.0" layoutX="36.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Marry Me.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="128.0" fitWidth="106.0" layoutX="243.0" layoutY="21.0" onMouseClicked="#F1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Free Guy.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="120.0" layoutX="249.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Puss in Boots The Last Wish.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="128.0" fitWidth="106.0" layoutX="421.0" layoutY="21.0" onMouseClicked="#H1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Hocus Pocus 2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="121.0" fitWidth="88.0" layoutX="428.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../The Bad Guys.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="102.0" fitWidth="67.0" layoutX="596.0" layoutY="42.0" onMouseClicked="#L1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Legally Blonde 3.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="121.0" fitWidth="100.0" layoutX="595.0" layoutY="235.0" onMouseClicked="#T1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Turning Red.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="21.0" layoutY="160.0" onMouseClicked="#C2" prefHeight="17.0" prefWidth="118.0" text="COMING 2 AMERICA" />
+                        <Label layoutX="250.0" layoutY="160.0" onMouseClicked="#F2" prefHeight="17.0" prefWidth="67.0" text="FREE GUY" />
+                        <Label layoutX="418.0" layoutY="160.0" onMouseClicked="#H2" prefHeight="17.0" prefWidth="100.0" text="HOCUS FOCUS 2" />
+                        <Label layoutX="574.0" layoutY="160.0" onMouseClicked="#L2" prefHeight="17.0" prefWidth="111.0" text="LEGALLY BLONDE 3" />
+                        <Label layoutX="44.0" layoutY="356.0" prefHeight="17.0" prefWidth="73.0" text="MARRY ME" />
+                        <Label layoutX="259.0" layoutY="356.0" prefHeight="17.0" prefWidth="100.0" text="PUSS IN BOOTS" />
+                        <Label layoutX="435.0" layoutY="356.0" prefHeight="17.0" prefWidth="67.0" text="BAD GUYS" />
+                        <Label layoutX="601.0" layoutY="356.0" onMouseClicked="#T2" prefHeight="17.0" prefWidth="84.0" text="TURNING RED" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="338.0" layoutY="261.0" text="COMEDY CATEGORY">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
